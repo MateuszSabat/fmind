@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fmind", "fmind\fmind.fsproj", "{D7F90AA4-95EA-46E2-9558-8637AA6921F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F90AA4-95EA-46E2-9558-8637AA6921F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F90AA4-95EA-46E2-9558-8637AA6921F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F90AA4-95EA-46E2-9558-8637AA6921F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F90AA4-95EA-46E2-9558-8637AA6921F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB5C4B26-6855-4CC4-9919-F9032A3EC293}
+	EndGlobalSection
+EndGlobal
