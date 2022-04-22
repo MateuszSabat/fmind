@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="genetics.fs" />
     <Compile Include="neural_tree.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>

@@ -3,12 +3,18 @@
 let private rng = System.Random()
 let private random min max = rng.Next (min, max)
 
+type competition_result = FirstWon | SecondWon | Draw
+
 let iterate crossover (mutation: 'a -> 'a) competition competition_levels generation = 
     let length = Array.length generation
 
     let individul index = Array.get generation index
 
-    let competition first second = competition (first, second) (individul first) (individul second)
+    let competition first second = 
+        match competition (individul first) (individul second) with 
+        | FirstWon -> (first, second) 
+        | SecondWon -> (second, first)
+        | Draw -> (first, second)
 
     let rec choose_best_worst levels = 
         if levels = 1 then 
